@@ -43,6 +43,7 @@ the release section or add the following to your maven file:
 The module name for this library is `se.alipsa.symp`
 
 ## se.alipsa.symp.YearMonthPickerCombo
+<img src="https://raw.githubusercontent.com/Alipsa/swing-yearmonth-picker/master/docs/YearMonthPickerCombo.png" alt="YearMonthPickerCombo Screenshot" width="350" />
 There are 5 constructors:
 
 __YearMonthPickerCombo()__
@@ -64,7 +65,7 @@ This gives you all yearmonths between from and to (both from and to included) wi
 initial value as the default selected, displayed in the locale specified in the format specified.
 
 ## se.alipsa.symp.YearMonthPicker
-<img src="https://raw.githubusercontent.com/perNyfelt/fx-yearmonth-picker/master/docs/example2.png" alt="YearMonthPickerCombo Screenshot" width="350" />
+<img src="https://raw.githubusercontent.com/Alipsa/swing-yearmonth-picker/master/docs/YearMonthPicker.png" alt="YearMonthPickerCombo Screenshot" width="350" />
 There are 5 constructors:
 
 __YearMonthPicker()__ This gives you YearMonths 3 year back and 3 years into the future from now in
