@@ -30,12 +30,12 @@ public class YearMonthPicker extends JPanel {
     JList<YearMonth> listView = new JList<>();
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame( "Year month combo" );
+        JFrame frame = new JFrame( "Year month picker" );
         JPanel panel = new JPanel();
         frame.add(panel);
         YearMonthPicker ymp = new YearMonthPicker();
         ymp.addListener(e -> System.out.println(ymp.getValue()));
-        panel.add( new JLabel( "Default Combo: ") );
+        panel.add( new JLabel( "Default Picker: ") );
         panel.add(ymp);
         frame.pack();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
